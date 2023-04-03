@@ -14,3 +14,6 @@ struct Mahasiswa
 	AlamatDetail alamat;
 	int umur;
 };
+
+int main() {
+	Mahasiswa mhs[3];
