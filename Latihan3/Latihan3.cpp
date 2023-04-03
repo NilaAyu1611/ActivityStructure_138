@@ -30,4 +30,7 @@ int main() {
 		cin.getline(mhs[i].alamat.kota, 20);
 		cout << "Masukan Umur : ";
 		cin >> mhs[i].umur;
+		cin.ignore(1, '\n');
 	}
+
+	
